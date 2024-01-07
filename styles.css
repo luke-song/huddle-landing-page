@@ -81,3 +81,30 @@ i {
   display: flex;
   gap: 20px;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    padding: 20px;
+  }
+
+  header a {
+    margin-bottom: 20px;
+  }
+  main {
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  p {
+    text-align: center;
+  }
+  .information {
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
